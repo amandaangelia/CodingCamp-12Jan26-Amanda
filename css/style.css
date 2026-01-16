@@ -3,7 +3,7 @@
     width: 75px;
     background-color: lightgray;
     border-radius: 50%;
-    background-image: url(https://picsum.photos/200);
+    background-image: url("https://media.licdn.com/dms/image/v2/D4E03AQEQsG_jg4HJ4g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725741547871?e=1770249600&v=beta&t=7GxMeeSIyFUjFJH55xHCK3SiGsin4R9weuclUJ3IKCA");
     background-size: cover;
 }
 
@@ -13,9 +13,72 @@
     align-items: center;
 }
 
-.profile-banner {
-    height: 200px;
-    background-image: url(https://picsum.photos/800/300);
+.hero-image {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    background-image: url("https://i.pinimg.com/736x/1e/d1/d5/1ed1d5e0b408252de910d0f216efd402.jpg");
     background-size: cover;
-    border-radius: 8px;
+    background-position: center;
+    border-radius: 10px;
 }
+
+.portfolio-images {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 12px;
+    margin-bottom: 100px;
+}
+
+.portfolio-circle1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("https://www.dbl.id/uploads/school/13140/492-SMA_PETRA_2_SURABAYA.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-circle2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("https://media.neliti.com/media/organisations/logo-239-universitas-kristen-petra.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-circle3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("https://media.licdn.com/dms/image/v2/C510BAQHRzhZVO0P4IQ/company-logo_200_200/company-logo_200_200/0/1630592745027?e=2147483647&v=beta&t=qo5hp393hmbLw9EEnc8rO5kh6VPufvxHg2rzhmhgfrs");
+    background-size: cover;
+    background-position: center;
+}
+
+/* About Company Layout */
+.about-container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+/* Left Image */
+.about-image {
+    flex: 1;
+    height: 300px;
+    background-image: url("https://img.freepik.com/premium-photo/beautiful-skyscraper-with-architecture-building-around-city_1203-12555.jpg?w=360");
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+}
+
+/* Right Text */
+.about-text {
+    flex: 1;
+    text-align: right;
+}
+
+
